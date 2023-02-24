@@ -11,6 +11,18 @@ public class Notas {
 		System.out.print("Introduzca el valor de una calificación: ");
 		numero = reader.nextInt();
 
+		calific = cali(numero);
+
+		System.out.println(calific);
+		reader.close() ;
+	}
+
+	/**
+	 * @param numero
+	 * @return
+	 */
+	public static String cali(int numero) {
+		String calific;
 		if (numero >= 0 && numero < 5)						
 			calific = "Suspenso";     
 		else if (numero >= 5 && numero < 7)
@@ -21,8 +33,6 @@ public class Notas {
 			calific = "Sobresaliente";
 		else
 			calific = "El valor de la calificación introducida no es correcta";
-
-		System.out.println(calific);
-		reader.close() ;
+		return calific;
 	}
 }
