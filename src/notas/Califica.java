@@ -5,13 +5,14 @@ package notas;
 
 /**
  * @author jmcab
- *
+ * Hemos sacado el metodo califica de la clase main y movido a la nueva clase creada Califica
  */
 public class Califica {
 
 	/**
 	 * @param num_nota
-	 * @return
+	 * @return calific
+	 * este metodo calcula si la nota introducida por paramentro es aprobada sobresaliente o suspenso
 	 */
 	public static String califica(int num_nota) {
 		String calific;

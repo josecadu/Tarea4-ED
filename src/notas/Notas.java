@@ -1,6 +1,15 @@
 package notas;
 
 import java.util.Scanner;
+/**
+ * @author jmcab
+ * Aqui dimos formato al codigo 
+ * mejoramos el codigo con la ayuda de la herramienta PMD
+ * refactorizamos las variables para que fueran mas descriptivas
+ * refactorizamos el codigo que valora la calificacion generandolo en un metodo,
+ * renombrando el metodo y su parametro de entrada
+ * y por ultimo le dimos una clase propia a ese metodo 
+ */
 
 public class Notas {
 
